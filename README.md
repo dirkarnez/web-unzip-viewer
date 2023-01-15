@@ -1,3 +1,3 @@
-web-unzip-viewer
-================
+[web-unzip-viewer](https://dirkarnez.github.io/web-unzip-viewer)
+================================================================
 Based on [zip.js/demos at gh-pages · gildas-lormeau/zip.js](https://github.com/gildas-lormeau/zip.js/tree/gh-pages/demos)
