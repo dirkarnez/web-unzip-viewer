@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/gh/gildas-lormeau/zip.js@2.6.62/dist/zip-fs.min.js"></script>
+	<meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+	<div id="container">
+		<h2>Read a zip file (demo)</h2>
+
+		<ol id="demo-container">
+			<li>
+				<label>
+					<span class="form-label">choose a zip file</span>
+					<button id="file-input-button">Open...</button>
+					<input type="file" id="file-input" accept="application/zip" hidden>
+				</label>
+			</li>
+			<li id="encoding-item">
+				<label>
+					<span class="form-label">select the encoding of names</span>
+					<select id="encoding-input" disabled>
+						<option>utf-8</option>
+						<option>cp437</option>
+						<option>ibm866</option>
+						<option>iso-8859-2</option>
+						<option>iso-8859-3</option>
+						<option>iso-8859-4</option>
+						<option>iso-8859-5</option>
+						<option>iso-8859-6</option>
+						<option>iso-8859-7</option>
+						<option>iso-8859-8</option>
+						<option>iso-8859-10</option>
+						<option>iso-8859-13</option>
+						<option>iso-8859-14</option>
+						<option>iso-8859-15</option>
+						<option>iso-8859-16</option>
+						<option>koi8-r</option>
+						<option>koi8-u</option>
+						<option>macintosh</option>
+						<option>windows-874</option>
+						<option>windows-1250</option>
+						<option>windows-1251</option>
+						<option>windows-1252</option>
+						<option>windows-1253</option>
+						<option>windows-1254</option>
+						<option>windows-1255</option>
+						<option>windows-1256</option>
+						<option>windows-1257</option>
+						<option>windows-1258</option>
+						<option>x-mac-cyrillic</option>
+						<option>gbk</option>
+						<option>gb18030</option>
+						<option>big5</option>
+						<option>euc-jp</option>
+						<option>iso-2022-jp</option>
+						<option>shift-jis</option>
+						<option>euc-kr</option>
+						<option>utf-16be</option>
+						<option>utf-16le</option>
+						<option>x-user-defined</option>
+					</select>
+				</label>
+			</li>
+			<li>
+				<label>
+					<span class="form-label">set the password</span>
+					<input type="password" id="password-input" value="" disabled>
+				</label>
+			</li>
+			<li>
+				<label>
+					<span class="form-label">download uncompressed files</span>
+					<ul id="file-list" class="empty">
+					</ul>
+				</label>
+			</li>
+            <img id="img-viewer"/>
+		</ol>
+	</div>
+	<script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>
